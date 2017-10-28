@@ -30,3 +30,6 @@ This Script Also installs the following themes:
 
 If you would Like some nice wallpapers Visit my website, I have provided a zip folder full of about 100
 http://www.dreamincode.ca/linux.html
+
+
+###DOES NOT APPEAR TO BE WORKING PROPERLY WITH ELEMENTRY OS AS OF THIS VERSION
