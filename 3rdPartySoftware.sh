@@ -1,6 +1,6 @@
 sudo echo "Welcome now installing youre software"
 echo "Installing Dependencies"
-sudo apt install git gdebi unzip
+sudo apt install -y git gdebi unzip
 mkdir ~/bin
 cd ~/bin
 #Download Packages
