@@ -1,6 +1,6 @@
 sudo echo "Welcome now installing youre software"
 echo "Installing Dependencies"
-sudo apt install git gdebi
+sudo apt install git gdebi unzip
 mkdir ~/bin
 cd ~/bin
 #Download Packages
@@ -69,3 +69,7 @@ sudo apt-get install -y arc-theme
 sudo add-apt-repository ppa:noobslab/themes -y
 sudo apt-get update
 sudo apt-get install -y obsidian-gtk-theme
+#wallpaper
+cd ..
+sudo unzip material.zip -d /usr/share/backgrounds
+sudo rm material.zip
