@@ -71,5 +71,5 @@ sudo apt-get update
 sudo apt-get install -y obsidian-gtk-theme
 #wallpaper
 cd ..
-sudo unzip material.zip -d /usr/share/backgrounds
-sudo rm material.zip
+sudo unzip ~/material.zip -d /usr/share/backgrounds
+sudo rm ~/material.zip
