@@ -30,7 +30,7 @@ sudo apt install -y neofetch
 echo "neofetch" >> ~/.bashrc	#Append ~/.bashrc for neofetch
 
 #Adjust Screen Tempture
-sudo apt install redshift redshift-gtk
+sudo apt install -y redshift redshift-gtk
 
 #####THEMES########################################################################################################################
 #Numix
