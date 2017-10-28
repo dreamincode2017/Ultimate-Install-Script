@@ -8,9 +8,9 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd64.deb
 wget https://atom.io/download/deb
 #Install Packages
-sudo gdebi install google-chrome-stable_current_amd64.deb
-sudo gdebi install dropbox_2015.10.28_amd64.deb
-sudo gdebi install deb.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
+sudo gdebi dropbox_2015.10.28_amd64.deb
+sudo gdebi deb.deb
 #Remove DEB Files
 sudo rm google-chrome-stable_current_amd64.deb
 sudo rm dropbox_2015.10.28_amd64.deb
