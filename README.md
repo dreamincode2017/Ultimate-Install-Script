@@ -26,6 +26,14 @@ This Script Installs the following software:
 13.Ice
 14.Updated PPA for Kdenlive
 
+
+
+
+
+
+
+
+
 This Script Also installs the following themes:
 1. Numix
 2. Paper
