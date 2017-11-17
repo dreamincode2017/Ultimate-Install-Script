@@ -10,16 +10,13 @@ mkdir ~/bin
 cd ~/bin
 #Download Packages
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-wget https://github.com/atom/atom/releases/download/v1.22.0/atom-amd64.deb
 wget https://launchpad.net/~peppermintos/+archive/ubuntu/p6-release/+files/ice_5.0.1_all.deb
 #Install Packages
 sudo gdebi google-chrome-stable_current_amd64.deb
-sudo gdebi atom-amd64.deb
 sudo gdebi ice_5.0.1_all.deb
 #Remove DEB Files
 sudo rm google-chrome-stable_current_amd64.deb
-sudo rm atom-amd64.deb
-sudo rmice_5.0.1_all.deb
+sudo rm ice_5.0.1_all.deb
 #Install Additonal Software
 sudo apt install -y gimp inkscape audacity handbrake virtualbox virtualbox-qt virtualbox-ext-pack gnome-disk-utility filezilla calibre plank
 #Make Mkv
