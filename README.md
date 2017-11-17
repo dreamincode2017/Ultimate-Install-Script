@@ -13,20 +13,19 @@ To install this Script:
 This Script Installs the following software:
 1. Google Chrome
 2. Gimp
-3. Atom
-4. Spotify
-5. Neofetch
-6. Redshift
-7. Inkscape
-8. Audacity
-9. Handbrake
-10. Virtualbox
-11. Simple Screen Recorder
-12. OBS
-13. Make MKV
-14. Ice
-15. Atom
-16. Updated PPA for Kdenlive
+3. Spotify
+4. Neofetch
+5. Redshift
+6. Inkscape
+7. Audacity
+8. Handbrake
+9.Virtualbox
+10.Simple Screen Recorder
+11.OBS
+12.Make MKV
+13.Ice
+14.tom
+15.Updated PPA for Kdenlive
 
 This Script Also installs the following themes:
 1. Numix
