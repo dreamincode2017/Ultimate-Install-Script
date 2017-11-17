@@ -19,13 +19,12 @@ This Script Installs the following software:
 6. Inkscape
 7. Audacity
 8. Handbrake
-9.Virtualbox
+9. Virtualbox
 10.Simple Screen Recorder
 11.OBS
 12.Make MKV
 13.Ice
-14.tom
-15.Updated PPA for Kdenlive
+14.Updated PPA for Kdenlive
 
 This Script Also installs the following themes:
 1. Numix
