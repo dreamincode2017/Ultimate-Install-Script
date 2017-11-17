@@ -20,10 +20,14 @@ This Script Installs the following software:
 7. Audacity
 8. Handbrake
 9. Virtualbox
+
 10.Simple Screen Recorder
 11.OBS
+
 12.Make MKV
+
 13.Ice
+
 14.Updated PPA for Kdenlive
 
 This Script Also installs the following themes:
