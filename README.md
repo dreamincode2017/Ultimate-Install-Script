@@ -28,12 +28,6 @@ This Script Installs the following software:
 
 
 
-
-
-
-
-
-
 This Script Also installs the following themes:
 1. Numix
 2. Paper
