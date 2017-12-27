@@ -1,24 +1,37 @@
-sudo echo "Welcome First We Will Install Updates and Dependencies"
+#!/bin/bash
+sudo ls > /dev/null
+clear
+echo "Welcome First We Will Install Updates and Dependencies"
 echo "Installing Dependencies"
 sudo apt install -y git gdebi unzip ffmpeg
 echo "INSTALLING UPDATES"
 sudo apt update
 sudo apt dist-upgrade -yy
+clear
 echo "STARTING NOW"
 #START
 mkdir ~/bin
 cd ~/bin
 #Download Packages
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget https://launchpad.net/~peppermintos/+archive/ubuntu/p6-release/+files/ice_5.0.1_all.deb
+wget https://github.com/geigi/cozy/releases/download/0.4.0/com.github.geigi.cozy_0.4.0_amd64.deb
 #Install Packages
-sudo gdebi google-chrome-stable_current_amd64.deb
 sudo gdebi ice_5.0.1_all.deb
+sudo gdebi com.github.geigi.cozy_0.4.0_amd64.deb
 #Remove DEB Files
-sudo rm google-chrome-stable_current_amd64.deb
 sudo rm ice_5.0.1_all.deb
+sudo rm mailspring-1.0.8-amd64.deb
+sudo rm com.github.geigi.cozy_0.4.0_amd64.deb
 #Install Additonal Software
-sudo apt install -y gimp inkscape audacity handbrake virtualbox virtualbox-qt virtualbox-ext-pack gnome-disk-utility filezilla calibre plank
+sudo apt install -y gimp inkscape audacity handbrake virtualbox virtualbox-qt virtualbox-ext-pack gnome-disk-utility filezilla calibre plank grsync soundconverter hunspell hunspell-en-ca
+#Insync
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ACCAF35C
+sudo apt update
+sudo apt install -y insync
+#Timeshift
+sudo add-apt-repository -y ppa:teejee2008/ppa
+sudo apt update
+sudo apt install -y timeshift
 #Make Mkv
 sudo add-apt-repository ppa:heyarje/makemkv-beta -y
 sudo apt-get update
@@ -40,6 +53,12 @@ sudo apt-get install -y spotify-client
 sudo add-apt-repository ppa:kdenlive/kdenlive-stable -y
 sudo apt-get update
 sudo apt-get install -y kdenlive
+#VeraCrypt
+wget https://launchpadlibrarian.net/289850375/veracrypt-1.19-setup.tar.bz2
+mkdir veracrypt
+tar xjvf veracrypt-1.19-setup.tar.bz2 -C veracrypt
+cd veracrypt
+./veracrypt-1.19-setup-gui-x64
 #Neofetch
 sudo add-apt-repository ppa:dawidd0811/neofetch -y
 sudo apt-get update
@@ -49,7 +68,27 @@ echo "neofetch" >> ~/.bashrc	#Append ~/.bashrc for neofetch
 #Adjust Screen Tempture
 sudo apt install -y redshift redshift-gtk
 
+
+#Credits to Joe Collins For this piece of software
+cd XBT-install/
+./xbt-install.sh
+
+
+
+
+
+
+
+
 #####THEMES########################################################################################################################
+
+
+
+
+
+
+
+
 #Breeze Cursor
 sudo apt-get install -y breeze-cursor-theme
 #Papruis
@@ -60,12 +99,6 @@ sudo apt install -y papirus-icon-theme
 sudo add-apt-repository ppa:numix/ppa -y
 sudo apt-get update
 sudo apt-get install -y numix-gtk-theme numix-icon-theme-circle
-#Paper
-sudo add-apt-repository ppa:snwh/pulp -y
-sudo apt-get update
-sudo apt-get install -y paper-icon-theme
-sudo apt-get install -y paper-cursor-theme
-sudo apt-get install -y paper-gtk-theme
 #Flatabulous
 sudo add-apt-repository ppa:noobslab/icons -y
 sudo apt-get update
@@ -96,13 +129,35 @@ sudo apt-get install -y arc-theme
 sudo add-apt-repository ppa:noobslab/themes -y
 sudo apt-get update
 sudo apt-get install -y obsidian-gtk-theme
-#wallpaper
+#Adapta
+sudo add-apt-repository ppa:tista/adapta -y
+sudo apt update
+sudo apt install -y adapta-gtk-theme adapta-backgrounds
+
+
+#Wallpaper
 cd ..
 sudo unzip ~/Wallpapers.zip -d /usr/share/backgrounds
 sudo rm ~/Wallpapers.zip
+
+
+
+#Finishing Up
 echo "INSTALLING ADDITONAL UPDATES"
 sudo apt update
 sudo apt dist-upgrade -yy
 echo "CLEANING UP"
 sudo apt-get autoremove -yy
 sudo apt-get autoclean
+
+
+
+#######################################################################COPY SCRIPTS TO ANACRON#############################################################################
+sudo chmod +x /Scripts/z-clean
+sudo cp /Scripts/z-clean /etc/cron.monthly/
+
+
+
+
+
+exit
