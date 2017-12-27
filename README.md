@@ -20,17 +20,17 @@ This Script Installs the following software:
 7. Handbrake
 8. Virtualbox
 9. Simple Screen Recorder
-10.OBS
-11.Make MKV
-12.Ice
-13.Updated PPA for Kdenlive
-14.Chromium
-15.Timeshift
-16.Grsync
-17.Mailspring
-18.VeraCrypt
-19.Script to Clean apt cache
-20.XBT(External Backup Tool)
+10. OBS
+11. Make MKV
+12. Ice
+13. Updated PPA for Kdenlive
+14. Chromium
+15. Timeshift
+16. Grsync
+17. Mailspring
+18. VeraCrypt
+19. Script to Clean apt cache
+20. XBT(External Backup Tool)
 
 
 This Script Also installs the following themes:
@@ -43,7 +43,7 @@ This Script Also installs the following themes:
 7. Arc
 8. Obsidian
 9. Papruis
-10.Breeze Cursors
+10. Breeze Cursors
 
 If you would Like some nice wallpapers Visit my website, I have provided a zip folder full of about 100
 http://www.dreamincode.ca/linux.html
