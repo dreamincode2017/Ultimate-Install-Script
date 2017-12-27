@@ -11,26 +11,31 @@ To install this Script:
 
 
 This Script Installs the following software:
-1. Google Chrome
-2. Gimp
-3. Spotify
-4. Neofetch
-5. Redshift
-6. Inkscape
-7. Audacity
-8. Handbrake
-9. Virtualbox
-10.Simple Screen Recorder
-11.OBS
-12.Make MKV
-13.Ice
-14.Updated PPA for Kdenlive
-
+1. Gimp
+2. Spotify
+3. Neofetch
+4. Redshift
+5. Inkscape
+6. Audacity
+7. Handbrake
+8. Virtualbox
+9. Simple Screen Recorder
+10.OBS
+11.Make MKV
+12.Ice
+13.Updated PPA for Kdenlive
+14.Chromium
+15.Timeshift
+16.Grsync
+17.Mailspring
+18.VeraCrypt
+19.Script to Clean apt cache
+20.XBT(External Backup Tool)
 
 
 This Script Also installs the following themes:
 1. Numix
-2. Paper
+2. Adapta
 3. Flatabulous
 4. LUV
 5. Vivacious
@@ -38,7 +43,7 @@ This Script Also installs the following themes:
 7. Arc
 8. Obsidian
 9. Papruis
-10. Breeze Cursors
+10.Breeze Cursors
 
 If you would Like some nice wallpapers Visit my website, I have provided a zip folder full of about 100
 http://www.dreamincode.ca/linux.html
