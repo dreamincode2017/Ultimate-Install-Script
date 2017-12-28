@@ -70,6 +70,7 @@ sudo apt install -y redshift redshift-gtk
 
 
 #Credits to Joe Collins For this piece of software
+chmod +x xbt-install.sh
 ./xbt-install.sh
 
 
@@ -152,7 +153,7 @@ sudo apt-get autoclean
 
 
 #######################################################################COPY SCRIPTS TO ANACRON#############################################################################
-sudo chmod +x /Scripts/z-clean
+sudo chmod +x z-clean
 sudo cp z-clean /etc/cron.monthly/
 
 
