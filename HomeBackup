@@ -1,0 +1,26 @@
+#!/bin/sh
+
+echo "Checking sudo permissions..."
+sudo ls >/dev/null
+
+
+echo "Here are you\'re drives"
+echo ""
+echo ""
+echo ""
+lsblk
+
+echo "Enter the drive path that you want to back up to."
+read varpath
+
+echo "Backing up Home..."
+sudo rsync -a --delete --info=progress2 /home/$USER/ $varpath/ 
+
+echo "--------------------
+-  All backed up!  -
+--------------------
+"
+
+
+sync
+exit
